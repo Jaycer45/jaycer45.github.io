@@ -1,0 +1,16 @@
+@media (min-width: 768px) and (max-width: 1279px) {
+
+    .main {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .website h2 {
+        font-size: 15px;
+    }
+
+    .website a,
+    p {
+        font-size: 15px;
+    }
+}
