@@ -41,27 +41,28 @@ nav {
 }
 
 nav {
-	display: flex;
-	flex-direction: column;
-}
-
-nav div {
-	flex: 1 1 auto;
-}
-
-nav a {
-	display: block;
-	color: whitesmoke;
-	text-align: center;
-	padding: 15px;
+	background-color: whitesmoke
+  }
+  nav ul li {
+	list-style: none;
+	display: inline;
+	padding: 1.1em;
+	width: 50px;
+  }
+  nav a {
+	color: black;
 	text-decoration: none;
-	font-size: 0.9rem;
-}
-
-nav a:hover {
-	background-color: #708080;
+  }
+  nav a:hover {
+	background-color: orangered;
 	color: whitesmoke;
-}
+	font-size: 115%;
+	border-radius: 9px;
+	border: 2px solid black;
+	padding: 8px;
+	width: 100px;
+	height: 100px;
+  }
 
 main {
 	display: grid;
