@@ -2,7 +2,7 @@
 
     .main {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: 1fr 1 fr;
     }
 
     .website h2 {
