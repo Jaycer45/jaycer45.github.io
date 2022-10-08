@@ -1,15 +1,14 @@
 .header{
-    display: flex;
+    display: grid;
     background-color: #CBC3E3;
     color: black;
     justify-content: center;
     padding: 1rem;
     border-radius: 1rem;
+    font-size: 1.3em;
 }
-
 nav {
 	background-color: #800080
-    
   }
   nav ul li {
 	list-style: none;
@@ -20,6 +19,7 @@ nav {
   nav a {
 	color: whitesmoke;
 	text-decoration: none;
+    font-size: 1em;
   }
   nav a:hover {
 	background-color: #800080;
