@@ -5,7 +5,7 @@ let dateTime = `Last Updated: ${fullDate} ${time}`;
 document.getElementById("lastModified").innerHTML = dateTime;
 
 
-let date_display = new Date(document.date_display);
-let real_display = date_display.toLocaleString('en-US', {month: "2-digit", day: "2-digit", year: "numeric"});
-let used_display = real_display;
-document.querySelector("real_display").innerHTML=dateTime;
+const datefieldUK = document.querySelector("aside");
+const now = new Date();
+const fulldateUK = new Intl.DateTimeFormat("en-UK", {dateStyle: "full"}).format(now);
+datefieldUK.innerHTML = `<em>${fulldateUK}</em>`;
