@@ -1,10 +1,22 @@
-@media (min-width: 700px) and (max-width: 1200px) {
+@media (min-width: 32.5em) and (max-width: 1200px) {
 
     .main {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
 
+    .navigation {
+        display: block;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+    .navigation li {
+        display: in-line;
+        max-width: 100%;
+    
+    }
     .website h2 {
         font-size: 15px;
     }

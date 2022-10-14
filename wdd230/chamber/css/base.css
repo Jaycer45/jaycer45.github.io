@@ -4,15 +4,20 @@
     color: black;
     justify-content: center;
     padding: 1rem;
-    border-radius: 1rem;
     font-size: 1.3em;
 }
+
+.header img {
+    background-image: url('Background.jpeg');
+}
 nav {
-	background-color: #800080;
+	background-color: grey;
     text-align: center;
     padding: 0;
     padding-inline-start: 0;
     display: flex;
+    max-width: 760px;
+    border-radius: 1rem;
   }
   nav ul {
     padding-inline-start: 0;
@@ -31,7 +36,7 @@ nav {
     font-size: 1em;
   }
   nav a:hover {
-	background-color: #800080;
+	background-color: black;
 	color: whitesmoke;
 	font-size: 115%;
 	border-radius: 9px;
@@ -40,6 +45,10 @@ nav {
 	width: 100px;
 	height: 100px;
   }
+
+  .navigation li:first-child {
+	display: block;
+}
 
 body{
     margin: .5rem;
@@ -83,12 +92,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .website h2 {
-    background-color: #800080;
+    background-color:lightgreen;
     display: block;
     padding: 10px 10px;
     border-radius: .5rem;
     text-align: center;
-    color: #f7f7f7;
+    color: black;
     width: 50%;
     margin: 10px auto;
 }
