@@ -1,5 +1,9 @@
 @media (min-width: 720px) {
-
+    .social svg {
+        width: 33px;
+        height: auto;
+    }
+    
     .main {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
