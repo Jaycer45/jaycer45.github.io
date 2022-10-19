@@ -163,6 +163,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 400px;
     height: 400px;
     border-radius: 1rem;
+    float: right;
 }
 
 .social {
