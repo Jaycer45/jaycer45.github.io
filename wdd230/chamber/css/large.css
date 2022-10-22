@@ -4,11 +4,27 @@
         border: solid;
       }
 
+    .header{
+        display: grid;
+        background-color: #CBC3E3;
+        color: black;
+        justify-content: center;
+        padding: 1rem;
+        border-radius: 1rem;
+    }
+
     .wrapper {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 10px;
         grid-auto-rows: minmax(100px, auto);
+    }
+
+    .wrapper p {
+        text-align: justify;
+        padding: 0px 10px;
+        line-height: 1rem;
+        font-size: 1rem;
     }
      
     .activies { 
@@ -32,15 +48,6 @@
     #showcase4 { 
         grid-column: 3;
         grid-row: 2;
-    }
-
-    .header{
-        display: grid;
-        background-color: #CBC3E3;
-        color: black;
-        justify-content: center;
-        padding: 1rem;
-        border-radius: 1rem;
     }
 
     #hamburger {
